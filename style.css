@@ -101,6 +101,7 @@ body{
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0,0.8));
    
 }
 .textAbout{
@@ -124,6 +125,7 @@ body{
     color: azure;
     align-items: center;
     justify-content: space-between;
+    
     
   }
 
@@ -162,8 +164,10 @@ body{
       border-bottom: #fff solid 3px;
     }}
     .roadIMG{
-        width: 40%;
-        margin-right: 10%;
+        width: 50%;
+        
+        filter: drop-shadow(0px 0px 20px rgba(0, 0, 0,0.8));
+        
     }
     .secc{
       display: flex;
