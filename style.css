@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0px;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -13,6 +14,7 @@ body{
     background-position: center;
     overflow-x: hidden;
     background-size: cover;
+    
 }
 
 #header{
@@ -60,7 +62,8 @@ body{
 
 .sec{
     position: relative;
-    padding: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .sec h2{
@@ -110,3 +113,58 @@ body{
     background-color: aliceblue;
     border-radius: 3px;
 }
+
+
+
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    margin-inline: auto;
+    color: azure;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  .Card {
+    display: grid;
+    
+    color: var(--text-1);
+    gap: calc(var(--gap) / 2);
+    align-content: start;
+
+    text-decoration: none;
+    transition: background-color 0.2s var(--ease-2);
+    padding: var(--size-8);
+    border-radius: var(--radius-3);
+
+    & h2 {
+      font-size: var(--font-size-5);
+    }
+
+    & ul {
+      padding: var(--size-3);
+    }
+
+    & i {
+      font-size: var(--font-size-5);
+
+      /* VisBug ♥ */
+      margin-inline-start: var(--size-00);
+    }
+
+    & li {
+      text-wrap: balance;
+    }
+
+    &:hover {
+      border-bottom: #fff solid 3px;
+    }}
+    .roadIMG{
+        width: 40%;
+        margin-right: 10%;
+    }
+    .secc{
+      display: flex;
+    }
